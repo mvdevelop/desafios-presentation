@@ -1,0 +1,52 @@
+
+html {
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    justify-content: space-around;
+    background: #000;
+    color: #fff;
+    align-items: center;
+}
+
+img {
+    width: 18em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #447bce;
+    transition: 1s;
+}
+
+.projects {
+    height: 100vh;
+}
+
+.project :hover {
+    box-shadow: whitesmoke 3px 3px 3px;
+    transition: 2s;
+}
+
+.project img {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+footer {
+    height: 100vh;
+}
+
+footer i {
+    font-size: 3em;
+    color: #447bce;
+    cursor: pointer;
+}
